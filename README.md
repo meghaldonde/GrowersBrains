@@ -1,23 +1,94 @@
 # GrowersBrains
 
-A project built to solve the problems Gowers Globally are Facing.
+GrowersBrains is an app designed to solve the problems that growers globally are Facing and to bring expert growing techniques to everyone. Grow Green and Grow Clean.
 
-Take a look at growersbrains.com
+As a community project that will enable collaborators to:
 
-GrowersBrains is an app designed to bring expert growing techniques to everyone.Grow Green and Grow Clean.
+:heavy_check_mark: Sharpen their skill sets
 
-GrowerBrains is a group project where everyone will get to increase their skill sets, get real world experience, learn all about the process of taking an app from idea to product, and have fun along the way.
+:heavy_check_mark: Learn new languages
 
-The goal is to build GrowersBrians with react native.
+:heavy_check_mark: Work in a team environment
 
-The way that i came up with the idea is that i have 15 years of experience of growing plants i started in middle school horticulture class at 11 and am now 26 ive learned alot from books and the internet.But the place that i always learned the most from was other growers teaching me the techniques that took them years to develop and perfect.
+:heavy_check_mark: Get real world experience
 
-That lead me to the idea of creating an app that brings a collective consciousness of Growers together to change the way the world grows.
+:heavy_check_mark: Make something that helps the world
 
-Growing plants can be very expensive and can lead to great losses if not done properly. When done properly it can be a fun,exciting,and relaxing way to control the quality if the food or medicine that you are growing and ensure that it is as clean and pure as possible.
+:heavy_check_mark: learn all about the process of taking an app from idea to product
 
-The current design that i have for the app is to have eight different sections.
+:heavy_check_mark: and most importantly, have fun along the way.
 
-Sections: 1)Welcome page that users would have to login to. 2)Growers Rankings- create rankings of the best growers in the world that could help people with one on one consulting. 3)Daily Grow- A daily picture of the plants a user is growing allowing to keep an eye on the plants and make sure their healthy, allows to diagnose any problems that arise. 4)Greenhouse-"What's in your Greenhouse" A locker of all the plants a person is growing and the data of what happens daily, once the plant is done growing a timelapse gets generated. 5)How to- Articles and videos from the top growers to teach every user the A to Z of growing. 6)Consulting- Allows top growers an opportunity to connect with new users to help them create a plan to make sure they optimize their grow and everything runs smoothly. 7) Competition - A daily, weekly, and monthly competition to see who the best grower is in many different categories. 8)Best products- Links and articles reviewing the best products for growers to use that are peer reviewed and approved. With affiliate codes included.
+# Motivation
+
+The way that I came up with the idea is that I have 15 years of experience of growing plants. Starting in middle school Horticulture class at 11 up to now at 26, I've learned a lot from books and the internet but the place that I have always learned the most was from other growers teaching me the techniques that took them years to develop and perfect.
+
+This lead me to the idea of creating an app that brings a collective consciousness of **growers** together to change the way the world grows. Growing plants can be expensive and can lead to great losses if not done properly. When done properly it can be a fun, exciting and relaxing way to control the quality of the food or medicine that you are growing and ensure that it is as clean and pure as possible.
+
+### Tech Stack
+
+:rocket: React
+
+:flying_saucer: Node
+
+:artificial_satellite: MongoDB
+
+:airplane: Express
+
+# Features & Designs
+
+The current design that I have for the app is to have eight different sections.
+
+### Sections
 
 All of these features would allow for great data to be collected and machine learning to be created to diagnose plant problems, and make elite growing accessible to everyone no matter their experience level.
+
+# To Contribute here (version control)
+
+1. Click on Fork at the top right corner
+2. Clone your forked repository
+3. `cd` into the cloned folder | GrowersBrains
+4. `git remote add upstream https://github.com/zero-to-mastery/GrowersBrains`
+5. `git pull upstream` <YOUR_BRANCH>
+6. Check out to the task branch by `git checkout -b` <NAME_OF_THE_TASK>
+
+# To run the app in development
+
+1. Run `npm install` from the root and also from the client folder
+2. run `npm run dev` from the root
+   Note: If you want to run backend only, run `npm run start`
+
+# Creating a pull request (when done with your code/changes)
+
+1. Run `git add .`
+2. Run `git commit -m` <COMMIT_MESSAGE>
+3. `git push origin` <BRANCH_NAME>
+
+Go to the repository https://github.com/zero-to-mastery/GrowersBrains.
+
+As soon as you get there, you are going to see a green **Compare and Create a pull request**.
+
+Click on it and type your message then click on **Create pull request**.
+
+Thanks to: **@chisombiri** :heart:
+
+# Getting Started / Installation
+
+If you want to join send **@nah** a message in Discord.
+
+Trello board: https://trello.com/invite/b/1VgFXdo7/0135f2a7507e6062eb03f23bcf76ae3c/growers-brains
+
+# Team
+
+:computer: Project Lead: **@nah**
+
+:briefcase: Project Manager: **@Kael0527**
+
+:bar_chart: Database Lead: **@Vali**
+
+:rocket: React Native Lead: **@Gajendra**
+
+# Handy Resources
+
+- [React.js official documentation](https://reactjs.org/docs/getting-started.html)
+- [Why indoor plants make you feel better](https://www.google.com/amp/s/www.nbcnews.com/better/amp/ncna781806)
+- [Finally, really good advice on how to stop killing your houseplants](https://www.google.com/amp/s/www.vox.com/platform/amp/the-highlight/2019/12/30/21031913/how-to-keep-houseplants-alive-masterclass-plants-swiss-cheese-millennials-plantfluencer)
