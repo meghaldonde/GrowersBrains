@@ -1,4 +1,4 @@
-# GrowersBrains
+# GrowersBrainsBackend
 
 GrowersBrains is an app designed to solve the problems that growers globally are Facing and to bring expert growing techniques to everyone. Grow Green and Grow Clean.
 
