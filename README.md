@@ -54,7 +54,7 @@ All of these features would allow for great data to be collected and machine lea
 # To run the app in development
 
 1. Run `npm install` from the **root**
-2. run `npm run server:Dev` from the root
+2. run `npm run server:dev` from the root
 
 ## Set environment variables
 
@@ -76,6 +76,11 @@ EMAIL_PORT=2525
 EMAIL_USERNAME=<YOUR_MAILTRAP_EMAIL_USERNAME>
 EMAIL_PASSWORD=<YOUR_MAILTRAP_EMAIL_Password>
 ```
+
+# To import/delete development data to/from your database
+
+**To Import Data** Run `npm run import-data`
+**To Delete Data** Run `npm run delete-data`
 
 # Creating a pull request (when done with your code/changes)
 
