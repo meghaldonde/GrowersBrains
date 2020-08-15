@@ -53,9 +53,29 @@ All of these features would allow for great data to be collected and machine lea
 
 # To run the app in development
 
-1. Run `npm install` from the root and also from the client folder
-2. run `npm run dev` from the root
-   Note: If you want to run backend only, run `npm run start`
+1. Run `npm install` from the **root**
+2. run `npm run server:Dev` from the root
+
+## Set environment variables
+
+You can create a .env file in your root project folder and add theses configurations. Be sure to modify the values beforehand. **_Never commit .env file to github._**
+
+```bash
+PORT=5000
+NODE_ENV = development
+MONGO_URI = <YOUR_MONGO_URI> (Only for hosted Databsse)
+
+JWT_SECRET=<JWT_SECRET>
+JWT_EXPIRES_IN=<JWT_EXPIRATION_DATE> (Ex : 90d )
+
+COOKIE_EXPIRES_IN = <COOKIE_EXPIRATION_Date> (Ex : 90)
+
+**_For MailTrap. You will need to create a MailTrap account ._**
+EMAIL_HOST=smtp.mailtrap.io
+EMAIL_PORT=2525
+EMAIL_USERNAME=<YOUR_MAILTRAP_EMAIL_USERNAME>
+EMAIL_PASSWORD=<YOUR_MAILTRAP_EMAIL_Password>
+```
 
 # Creating a pull request (when done with your code/changes)
 
@@ -83,9 +103,9 @@ Trello board: https://trello.com/invite/b/1VgFXdo7/0135f2a7507e6062eb03f23bcf76a
 
 :briefcase: Project Manager: **@Kael0527**
 
-:bar_chart: Database Lead: **@Vali**
+:bar_chart: front end Lead: @natalie_p
 
-:rocket: React Native Lead: **@Gajendra**
+:rocket: React Lead: **@Gajendra**
 
 # Handy Resources
 
