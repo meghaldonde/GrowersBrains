@@ -65,12 +65,12 @@ PORT=5000
 NODE_ENV = development
 MONGO_URI = <YOUR_MONGO_URI> (Only for hosted Databsse)
 
-JWT_SECRET=<JWT_SECRET>
+JWT_SECRET= <JWT_SECRET>
 JWT_EXPIRES_IN=<JWT_EXPIRATION_DATE> (Ex : 90d )
 
 COOKIE_EXPIRES_IN = <COOKIE_EXPIRATION_Date> (Ex : 90)
 
-**_For MailTrap. You will need to create a MailTrap account ._**
+//For MailTrap. You will need to create a MailTrap account
 EMAIL_HOST=smtp.mailtrap.io
 EMAIL_PORT=2525
 EMAIL_USERNAME=<YOUR_MAILTRAP_EMAIL_USERNAME>
