@@ -47,7 +47,7 @@ All of these features would allow for great data to be collected and machine lea
 1. Click on Fork at the top right corner
 2. Clone your forked repository
 3. `cd` into the cloned folder | GrowersBrains
-4. `git remote add upstream https://github.com/zero-to-mastery/GrowersBrains`
+4. `git remote add upstream https://github.com/nicholashindy/GrowersBrains.git`
 5. `git pull upstream` <YOUR_BRANCH>
 6. Check out to the task branch by `git checkout -b` <NAME_OF_THE_TASK>
 
