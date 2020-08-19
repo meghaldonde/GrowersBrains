@@ -4,6 +4,8 @@ const {
   getAllUsers,
   updateMe,
   getMe,
+  uploadUserPhoto,
+  resizeUserPhoto,
 } = require('../controllers/userController');
 const {
   protect,
@@ -17,7 +19,7 @@ const {
 
 router.post('/signup', signup);
 router.post('/login', login);
-router.patch('/updateMe', protect, updateMe);
+router.patch('/updateMe', protect, uploadUserPhoto, resizeUserPhoto, updateMe);
 router.get('/me', protect, getMe);
 
 router.patch('/updateMyPassword', protect, updatePassword);
