@@ -6,10 +6,20 @@ const {
   getPlant,
   updatePlant,
   deletePlant,
-} = require('./../controllers/plantController');
+  uploadPlantImages,
+} = require('../controllers/plantController');
 
-router.route('/').get(getAllPlants).post(createPlant);
+const { protect, restrictTo } = require('../controllers/authController');
 
-router.route('/:id').get(getPlant).patch(updatePlant).delete(deletePlant);
+router
+  .route('/')
+  .get(getAllPlants)
+  .post(protect, restrictTo('grower'), uploadPlantImages, createPlant);
+
+router
+  .route('/:id')
+  .get(getPlant)
+  .patch(protect, uploadPlantImages, updatePlant)
+  .delete(protect, restrictTo('grower'), deletePlant);
 
 module.exports = router;
