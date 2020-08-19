@@ -115,5 +115,7 @@ Trello board: https://trello.com/invite/b/1VgFXdo7/0135f2a7507e6062eb03f23bcf76a
 # Handy Resources
 
 - [React.js official documentation](https://reactjs.org/docs/getting-started.html)
+- [MongoDB documentation](https://docs.mongodb.com/manual/)
+- [Mongoose documentation](https://mongoosejs.com/docs/guide.html)
 - [Why indoor plants make you feel better](https://www.google.com/amp/s/www.nbcnews.com/better/amp/ncna781806)
 - [Finally, really good advice on how to stop killing your houseplants](https://www.google.com/amp/s/www.vox.com/platform/amp/the-highlight/2019/12/30/21031913/how-to-keep-houseplants-alive-masterclass-plants-swiss-cheese-millennials-plantfluencer)
