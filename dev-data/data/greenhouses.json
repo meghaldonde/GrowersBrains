@@ -1,7 +1,6 @@
 [
   {
     "_id": "5c88fa8cf4afda39709c295a",
-    "plants": ["plant-11.jpg", "plant-12.jpg", "plant-13.jp,g"],
     "grower": "5c8a21d02f8fb814b56fa189",
     "soil": {
       "type": "Sandy Soil",
@@ -12,7 +11,6 @@
   },
   {
     "_id": "5c88fa8cf4afda39709c295d",
-    "plants": ["plant-14.jpg", "plant-15,.jpg", "plant-16.jp,g"],
     "grower": "5c8a21f22f8fb814b56fa18a",
     "soil": {
       "type": "Silt Soil.",
@@ -23,7 +21,6 @@
   },
   {
     "_id": "5c88fa8cf4afda39709c295c",
-    "plants": ["plant-17.jpg", "plant-18,.jpg", "plant-19.jp,g"],
     "grower": "5c8a22c62f8fb814b56fa18b",
     "soil": {
       "type": "Sandy Soil",
@@ -34,7 +31,6 @@
   },
   {
     "_id": "5c88fa8cf4afda39709c2955",
-    "plants": ["plant-20.jpg", "plant-21,.jpg", "plant-22.jp,g"],
     "grower": "5c8a23412f8fb814b56fa18c",
     "soil": {
       "type": "Loamy Soil",
@@ -45,7 +41,6 @@
   },
   {
     "_id": "5c88fa8cf4afda39709c2974",
-    "plants": ["plant-23.jpg", "plant-24,.jpg", "plant-25.jp,g"],
     "grower": "5c8a24822f8fb814b56fa192",
     "soil": {
       "type": "Loamy Soil",

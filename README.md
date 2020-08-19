@@ -63,7 +63,7 @@ You can create a .env file in your root project folder and add theses configurat
 ```bash
 PORT=5000
 NODE_ENV = development
-MONGO_URI = <YOUR_MONGO_URI> (Only for hosted Databsse)
+MONGO_URI = <YOUR_MONGO_URI> (Only for hosted Database)
 
 JWT_SECRET= <JWT_SECRET>
 JWT_EXPIRES_IN=<JWT_EXPIRATION_DATE> (Ex : 90d )
@@ -88,7 +88,7 @@ EMAIL_PASSWORD=<YOUR_MAILTRAP_EMAIL_Password>
 2. Run `git commit -m` <COMMIT_MESSAGE>
 3. `git push origin` <BRANCH_NAME>
 
-Go to the repository https://github.com/zero-to-mastery/GrowersBrains.
+Go to the repository https://github.com/nicholashindy/GrowersBrains.git.
 
 As soon as you get there, you are going to see a green **Compare and Create a pull request**.
 
